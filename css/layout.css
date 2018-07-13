@@ -323,17 +323,17 @@ ul#nav li.current a { color: #1e852f; }
 }
 
 .javascript {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: javascript 2s ease;
   	-webkit-animation: javascript 2s ease;
 }
 .css {
-  	width: 55%;
+  	width: 45%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .java {
-  	width: 50%;
+  	width: 30%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -343,7 +343,7 @@ ul#nav li.current a { color: #1e852f; }
   	-webkit-animation: c_sharp 2s ease;
 }
 .python {
-  	width: 80%;
+  	width: 60%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -355,15 +355,15 @@ ul#nav li.current a { color: #1e852f; }
 
 @-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 45%;  }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 30%;  }
 }
 @-moz-keyframes c_sharp {
   0%   { width: 0px;  }
@@ -371,7 +371,7 @@ ul#nav li.current a { color: #1e852f; }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
@@ -380,15 +380,15 @@ ul#nav li.current a { color: #1e852f; }
 
 @-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 45%;  }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 30%;  }
 }
 @-webkit-keyframes c_sharp {
   0%   { width: 0px;  }
@@ -396,7 +396,7 @@ ul#nav li.current a { color: #1e852f; }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
