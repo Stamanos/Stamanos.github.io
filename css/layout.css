@@ -280,6 +280,11 @@ ul#nav li.current a { color: #1e852f; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+.profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .bars {
 	width: 95%;
