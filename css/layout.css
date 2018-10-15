@@ -239,7 +239,7 @@ ul#nav li.current a { color: #1e852f; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: rgb(43, 117, 0); }
 #resume a:hover, #resume a:focus { color: #1e852f; }
 
 #resume h1 {
