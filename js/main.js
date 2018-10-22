@@ -66,8 +66,8 @@ $(window).on("load", function() {
     strings: [
       "I'm Manos Stamatakis",
       "Software Developer",
-      "From Athens",
-      "Greece"
+      "From Athens, Greece",
+      "And Discus thrower!"
     ],
     typeSpeed: 10,
     loop: true,
