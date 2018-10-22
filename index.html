@@ -1,244 +1,279 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-   <!--- Basic Page Needs
+    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>Stamatakis CV</title>
     <link rel="shortcut icon" href="favicon.ico" />
-	<meta name="description" content="">
-	<meta name="author" content="Emmanouil Stamatakis">
-   <!-- Mobile Specific Metas
+    <meta name="description" content="">
+    <meta name="author" content="Emmanouil Stamatakis">
+    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- CSS
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <!-- Script
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
-   <!-- Favicons
+    <script src="js/modernizr.js"></script>
+    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+    <link rel="shortcut icon" href="favicon.png">
 </head>
+
 <body>
-   <!-- Header
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Header
    ================================================== -->
-   <header id="home">
-      <nav id="nav-wrap">
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-             <li><a class="smoothscroll" href="#resume">Resume</a></li>
-             <li><a class="smoothscroll" href="#call-to-action">Achivements</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-         </ul>
-      </nav>
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Manos Stamatakis.</h1>
-            <h3 style="background-color:rgba(51, 170, 51, .7)">I'm studying Computer Science at the <a href="http://www.unipi.gr/unipi/en/">University of Piraeus</a>
-            , Greece. I am specialising in Software Engineering and Intelligent Systems.
-            If you would like to learn more <a class="smoothscroll" href="#about">about me, start scrolling</a>.</h3>
-            <hr />
-            <ul class="social">
-                <li><a href="https://github.com/ManosTheMaster"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.instagram.com/manos_stamatakis_dt/"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://plus.google.com/u/0/113141327461511474792"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/emmanouil-stamatakis-a8728014a/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.youtube.com/channel/UCgC9q5L9sCMj3SpGYyQ67gg?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
-            </ul>
-         </div>
-      </div>
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-   </header> <!-- Header End -->
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-      <div class="row">
-         <div class="three columns">
-            <img class="profile-pic"  src="images/cv-image.jpg" alt="" />
-         </div>
-         <div class="nine columns main-col">
-            <h2>About Me</h2>
-            <p>I aspire to initiate projects that have practical applications,
-                particularly if they involve time-saving. I am passionate about programming 
-                and I love learning. My goal is to make people's lives easier.
-            </p>
-            <div class="row">
-               <div class="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Manos Stamatakis</span><br>
-						   <span>Sperchiou 78, 12137<br>
-                                 Peristeri, Athens, Greece
-                     </span><br>
-                     <span>EmmanouelStamatakes@gmail.com</span>
-					   </p>
-               </div>
-               <div class="columns download">
-                  <p>
-                    <a href="CVsimple.pdf" download class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-            </div> <!-- end row -->
-         </div> <!-- end .main-col -->
-      </div>
-   </section> <!-- About Section End-->
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-      <!-- Education
-      ================================================== -->
-      <div class="row education">
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <a href="http://www.cs.unipi.gr"><img class="profile-pic"  src="images/unipi_logo.png" alt="" /></a>
-                  <p class="info">Software Engineering and Intelligent Systems<span>&bull;</span> <em class="date">Now</em></p>
-
-                  <p>A true maths enthusiast, I enjoy computer science because it
-                      combines the language of numbers with the potential of creation.
-                      Programming makes unimaginable things possible, placing them within
-                      our grasp. I decided to specialise in software engineering and intelligent
-                      systems for that very reason.
-                  </p>
-               </div>
-            </div> <!-- item end -->
-         </div> <!-- main-col end -->
-      </div> <!-- End Education -->
-            </div> <!-- item end -->
-<!-- Work- -->
-      <div class="row work">
-        <div class="three columns header-col">
-           <h1><span>Working experience</span></h1>
+    <!--====== Header Section Start ======-->
+    <header class="header-section">
+        <div class="logo">
+            <img src="img/logo.png" alt=""><!-- Logo -->
         </div>
-        <div class="nine columns main-col">
-           <div class="row item">
-               <div class="twelve columns">
-               </div>
-           </div> <!-- item end -->
-            <div class="row item">
-               <div class="twelve columns">
-                    <a href="https://acein.aueb.gr/groundifly"><img class="profile-pic"  src="images/Groundifly_logo.png" alt="" /></a>
-                    <p class="info">Android developer <span>&bull;</span> <em class="date">October 2017 - January 2018</em></p>
-                  <p>
-                      Groundifly is my pride and joy, a project very dear to me. I joined Groundifly team as an android developer when I was still a university student. It is a startup which aims to unite every sector
-                      of extreme sport industry by marrying the use of geolocation data to innovating
-                      marketing techniques. If you are interested in finding out more, you can download the app 
-                      (for free) <a href="https://play.google.com/store/apps/details?id=com.groundifly_android">here</a>  , or see our promo video <a href="https://www.youtube.com/watch?v=7BXI4LgJWOI">here!</a>      
-                    </p>
+        <div class="responsive"><i class="fa fa-bars"></i></div>
+        <!-- Navigation -->
+        <ul class="menu-list">
+            <li class="current"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#call-to-action">Achivements</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+    </header>
+    <!--====== Header Section End ======-->
 
-                    <a href="https://www.siemens.com"><img class="profile-pic"  src="images/siemens_logo.png" alt="" /></a>
-                    <p class="info">Developer / TFS Data Analysis <span>&bull;</span> <em class="date">Nov 2017 - Feb 2018</em></p>
-                    <p>During this internship I gained valuable knowledge working on data analysis, 
-                        collecting data from TFS Client and creating attractive graphs from them. 
-                        I was introduced to big data and at the same time I expanded my skills in C#.
-                    </p>
-
-                    <a href="http://www.dataverse.gr"><img class="profile-pic"  src="images/dv_logo.png" alt="" /></a>
-                    <p class="info">Developer / C# (MVC, Asp.NET) <span>&bull;</span> <em class="date">May 2018 - Present</em></p>
-                  <p>
-                      Currently working here as Developer. I enjoy very much the working enviroment.
-                      I am involved in 2 projects so far, <a href="http://www.dataverse.gr/index.php/products/docutracks/">Docutracks</a> (Document, Case and Digital Signatures Management System) and in a AR technology mobile application.
-                  </p>
-               </div>
-            </div> <!-- item end -->
-         </div> <!-- main-col end -->
-      </div> <!-- End Work -->
-
-      <!-- Skills
-      ================================================== -->
-      <div class="row skill">
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            </p>
-				<div class="bars">
-
-				   <ul class="skills">
-                       <li><span class="bar-expand c_sharp"></span><em>C#</em></li>
-					   <li><span class="bar-expand javascript"></span><em>JAVASCRIPT</em></li>
-                       <li><span class="bar-expand python"></span><em>PYTHON</em></li>
-                       <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand java"></span><em>JAVA</em></li>
-					</ul>
-				</div><!-- end skill-bars -->
-			</div> <!-- main-col end -->
-      </div> <!-- End skills -->
-   </section> <!-- Resume Section End-->
-   <!-- Call-To-Action Section
-   ================================================== -->
-
-      <!-- Achivments Section
-   ================================================== -->
-   <section id="call-to-action">
-        <div class="row">
-            <div class="two columns header-col">
-                <h1></h1>
-            </div>
-            <div class="seven columns">
-                <h2><span class="lead">As a Student</span></h2>
-                <p><span class="lead">
-                    • 3rd place at Mathematical Olympiad “Archimedes”<br>
-                    • 2nd place at National Microsoft Excel contest<br>
-                    • Microsoft Specialist (Office 2007) since I was 15 years old.<br>
-                </span></p>
-            </div>
-            <div class="three columns action">
-                <h5>Location, Year</h5>
-                Greece, 2015<br>
-                Greece, 2014<br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="two columns header-col">
-                <h1></h1>
-            </div>
-            <div class="seven columns">
-                <h2><span class="lead">As an Entepreneur</span></h2>
-            <p><span class="lead">
-                    • Ennovation Contest - 3rd phase<br>
-                    • Entrepreneurship Bootcamp Contest - achieved incubation<br>
-                    • Google Startup Launchpad Warsaw, Poland (Top 10 in Europe)<br>
-            </span></p>
-            </div>
-            <div class="three columns action">
-                <h5>Dates</h5>
-                SEP 2017<br>
-                JUL 2017<br>
-                OCT 2017<br>
-            </div>
-        </div>
-             <div class="row">
-                <div class="two columns header-col">
-                    <h1></h1>
+    <section class="intro-section fix" id="home">
+        <div class="intro-bg bg-cms"></div>
+        <div class="intro-inner">
+            <div class="intro-content">
+                <div id="round"></div>
+                <div class="profile-img">
+                    <img src="images/cv-image.jpg" alt="">
                 </div>
-                <div class="seven columns">
-                    <h2><span class="lead">As an Athlete</span></h2>
-                    <p><span class="lead">
-                            • 22nd place at sailing, in the International Youth Championship<br>
-                            • 3rd place at Discus throw in the Youth(U20) National Championship<br>
-                            • 3rd place at Discus throw in the U23 National Championship<br>
-                            • 3rd place at Discus throw in the National Winter Throwing Championship<br>
-                            • 3rd place at Discus throw in the National Throwing Festival<br>
-                    </span></p>
+                <h2><span class="element"></span></h2>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Intro Section End ==== -->
+    <!-- About Section
+   ================================================== -->
+    <main class="main-warp">
+        <section id="about" class="about-section fix">
+            <div class="container pt100 pb100">
+                <div class="stitle mb70">
+                    <h2>About Me</h2>
                 </div>
-                <div class="three columns action">
+                <div class="row">
+                    <div class="three columns">
+                        <img class="profile-pic" src="images/cv-image.jpg" alt="" />
+                    </div>
+                    <div class="nine columns main-col">
+
+                        <p>I aspire to initiate projects that have practical applications,
+                            particularly if they involve time-saving. I am passionate about programming
+                            and I love learning. My goal is to make people's lives easier.
+                        </p>
+                        <div class="row">
+                            <div class="columns contact-details">
+                                <h2>Contact Details</h2>
+                                <p class="address">
+                                    <span>Manos Stamatakis</span><br>
+                                    <span>Sperchiou 78, 12137<br>
+                                        Peristeri, Athens, Greece
+                                    </span><br>
+                                    <span>EmmanouelStamatakes@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="columns download">
+                                <p>
+                                    <a href="CVsimple.docx" download class="button"><i class="fa fa-download"></i>Download
+                                        Resume</a>
+                                </p>
+                            </div>
+                        </div> <!-- end row -->
+                    </div> <!-- end .main-col -->
+                </div>
+            </div>
+        </section> <!-- About Section End-->
+        <!-- Resume Section
+   ================================================== -->
+        <section id="resume" class="resume-section fix">
+            <!-- Education
+      ===============================
+      =================== -->
+            <div class="container pt100 pb100">
+                <div class="stitle mb70">
+                    <h2>Resume</h2>
+                </div>
+                <div class="row education">
+                    <div class="three columns header-col">
+                        <h1><span>Education</span></h1>
+                    </div>
+                    <div class="nine columns main-col">
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <a href="http://www.cs.unipi.gr"><img class="profile-pic" src="images/unipi_logo.png"
+                                        alt="" /></a>
+                                <p class="info">Software Engineering and Intelligent Systems<span>&bull;</span> <em
+                                        class="date">Now</em></p>
+
+                                <p>A true maths enthusiast, I enjoy computer science because it
+                                    combines the language of numbers with the potential of creation.
+                                    Programming makes unimaginable things possible, placing them within
+                                    our grasp. I decided to specialise in software engineering and intelligent
+                                    systems for that very reason.
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+                    </div> <!-- main-col end -->
+                </div> <!-- End Education -->
+            </div> <!-- item end -->
+            <!-- Work- -->
+            <div class="row work">
+                <div class="three columns header-col">
+                    <h1><span>Working experience</span></h1>
+                </div>
+                <div class="nine columns main-col">
+                    <div class="row item">
+                        <div class="twelve columns">
+                        </div>
+                    </div> <!-- item end -->
+                    <div class="row item">
+                        <div class="twelve columns">
+                            <a href="https://acein.aueb.gr/groundifly"><img class="profile-pic" src="images/Groundifly_logo.png"
+                                    alt="" /></a>
+                            <p class="info">Android developer <span>&bull;</span> <em class="date">October 2017 -
+                                    January 2018</em></p>
+                            <p>
+                                Groundifly is my pride and joy, a project very dear to me. I joined Groundifly team as
+                                an android developer when I was still a university student. It is a startup which aims
+                                to unite every sector
+                                of extreme sport industry by marrying the use of geolocation data to innovating
+                                marketing techniques. If you are interested in finding out more, you can download the
+                                app
+                                (for free) <a href="https://play.google.com/store/apps/details?id=com.groundifly_android">here</a>
+                                , or see our promo video <a href="https://www.youtube.com/watch?v=7BXI4LgJWOI">here!</a>
+                            </p>
+
+                            <a href="https://www.siemens.com"><img class="profile-pic" src="images/siemens_logo.png"
+                                    alt="" /></a>
+                            <p class="info">Developer / TFS Data Analysis <span>&bull;</span> <em class="date">Nov 2017
+                                    - Feb 2018</em></p>
+                            <p>During this internship I gained valuable knowledge working on data analysis,
+                                collecting data from TFS Client and creating attractive graphs from them.
+                                I was introduced to big data and at the same time I expanded my skills in C#.
+                            </p>
+
+                            <a href="http://www.dataverse.gr"><img class="profile-pic" src="images/dv_logo.png" alt="" /></a>
+                            <p class="info">Developer / C# (MVC, Asp.NET) <span>&bull;</span> <em class="date">May 2018
+                                    - Present</em></p>
+                            <p>
+                                Currently working here as Developer. I enjoy very much the working enviroment.
+                                I am involved in 2 projects so far, <a href="http://www.dataverse.gr/index.php/products/docutracks/">Docutracks</a>
+                                (Document, Case and Digital Signatures Management System) and in a AR technology mobile
+                                application.
+                            </p>
+                        </div>
+                    </div> <!-- item end -->
+                </div> <!-- main-col end -->
+            </div> <!-- End Work -->
+
+            <!-- Skills
+      ================================================== -->
+            <div class="row skill">
+                <div class="three columns header-col">
+                    <h1><span>Skills</span></h1>
+                </div>
+                <div class="nine columns main-col">
+                    </p>
+                    <div class="bars">
+
+                        <ul class="skills">
+                            <li><span class="bar-expand c_sharp"></span><em>C#</em></li>
+                            <li><span class="bar-expand javascript"></span><em>JAVASCRIPT</em></li>
+                            <li><span class="bar-expand python"></span><em>PYTHON</em></li>
+                            <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                            <li><span class="bar-expand css"></span><em>CSS</em></li>
+                            <li><span class="bar-expand java"></span><em>JAVA</em></li>
+                        </ul>
+                    </div><!-- end skill-bars -->
+                </div> <!-- main-col end -->
+            </div>
+            </div><!-- End skills -->
+        </section> <!-- Resume Section End-->
+        <!-- Call-To-Action Section
+   ================================================== -->
+
+        <!-- Achivments Section
+   ================================================== -->
+        <section id="call-to-action" class="call-to-action-section fix">
+            <div class="container pt100 pb100">
+                <div class="stitle mb70">
+                    <h2>Achivements</h2>
+                </div>
+                <div class="row">
+                    <div class="two columns header-col">
+                        <h1></h1>
+                    </div>
+                    <div class="seven columns">
+                        <h2><span class="lead">As a Student</span></h2>
+                        <p><span class="lead">
+                                • 3rd place at Mathematical Olympiad “Archimedes”<br>
+                                • 2nd place at National Microsoft Excel contest<br>
+                                • Microsoft Specialist (Office 2007) since I was 15 years old.<br>
+                            </span></p>
+                    </div>
+                    <div class="three columns action">
+                        <h5>Location, Year</h5>
+                        Greece, 2015<br>
+                        Greece, 2014<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="two columns header-col">
+                        <h1></h1>
+                    </div>
+                    <div class="seven columns">
+                        <h2><span class="lead">As an Entepreneur</span></h2>
+                        <p><span class="lead">
+                                • Ennovation Contest - 3rd phase<br>
+                                • Entrepreneurship Bootcamp Contest - achieved incubation<br>
+                                • Google Startup Launchpad Warsaw, Poland (Top 10 in Europe)<br>
+                            </span></p>
+                    </div>
+                    <div class="three columns action">
+                        <h5>Dates</h5>
+                        SEP 2017<br>
+                        JUL 2017<br>
+                        OCT 2017<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="two columns header-col">
+                        <h1></h1>
+                    </div>
+                    <div class="seven columns">
+                        <h2><span class="lead">As an Athlete</span></h2>
+                        <p><span class="lead">
+                                • 22nd place at sailing, in the International Youth Championship<br>
+                                • 3rd place at Discus throw in the Youth(U20) National Championship<br>
+                                • 3rd place at Discus throw in the U23 National Championship<br>
+                                • 3rd place at Discus throw in the National Winter Throwing Championship<br>
+                                • 3rd place at Discus throw in the National Throwing Festival<br>
+                            </span></p>
+                    </div>
+                    <div class="three columns action">
                         <h5>Location, Year</h5>
                         Finland, 2012<br>
                         <br>
@@ -247,49 +282,60 @@
                         <br>
                         Thessaloniki, Greece 2018<br>
                         Tripoli, Greece 2018<br>
+                    </div>
                 </div>
             </div>
-   </section> <!-- Call-To-Action Section End-->
+        </section> <!-- Call-To-Action Section End-->
 
-   <!-- Testimonials Section
+        <!-- Testimonials Section
    ================================================== -->
-   <section id="testimonials">
-      <div class="text-container">
-         <div class="row">
-            <div class="two columns header-col">
-               <h1><span style="color: aliceblue; background-color:rgba(51, 170, 51, .7)">Testimonials</span></h1>
-            </div>
-            <div class="ten columns flex-container">
-               <div class="flexslider">
-                  <ul class="slides">
-                     <li>
-                        <blockquote>
-                           <p>
-                                Amazing and really innovative ideas, extremely clean code, very good at brainstorming. 
-                                He doesn't stop working until his work is done 
-                                and is extremely organizational.
-                            </p>
-                           <cite>Gus Kala, Ceo of Entitu</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-                     <li>
-                        <blockquote>
-                           <p>
-                               Has strong will to succeed in his life and wants to learn new things continuously. 
-                               He always acts very disciplined, because of the long-standing athleticism from the age of 7. 
-                           </p>
-                           <cite>Alice Moysiadi, Tutor at University of Southampton</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-                  </ul>
-               </div> <!-- div.flexslider ends -->
-            </div> <!-- div.flex-container ends -->
-         </div> <!-- row ends -->
-       </div>  <!-- text-container ends -->
-   </section> <!-- Testimonials Section End-->
-   <!-- footer
+        <section id="testimonials" class="testimonials fix">
+            <div class="container pt100 pb100">
+                <div class="stitle mb70">
+                    <h2>Testimonials</h2>
+                </div>
+                <div class="text-container">
+                    <div class="row">
+                        <div class="two columns header-col">
+                            <h1><span style="color: aliceblue; background-color:rgba(51, 170, 51, .7)">Testimonials</span></h1>
+                        </div>
+                        <div class="ten columns flex-container">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <blockquote>
+                                            <p>
+                                                Amazing and really innovative ideas, extremely clean code, very good at
+                                                brainstorming.
+                                                He doesn't stop working until his work is done
+                                                and is extremely organizational.
+                                            </p>
+                                            <cite>Gus Kala, Ceo of Entitu</cite>
+                                        </blockquote>
+                                    </li> <!-- slide ends -->
+                                    <li>
+                                        <blockquote>
+                                            <p>
+                                                Has strong will to succeed in his life and wants to learn new things
+                                                continuously.
+                                                He always acts very disciplined, because of the long-standing
+                                                athleticism
+                                                from the age of 7.
+                                            </p>
+                                            <cite>Alice Moysiadi, Tutor at University of Southampton</cite>
+                                        </blockquote>
+                                    </li> <!-- slide ends -->
+                                </ul>
+                            </div> <!-- div.flexslider ends -->
+                        </div> <!-- div.flex-container ends -->
+                    </div>
+                </div> <!-- row ends -->
+            </div> <!-- text-container ends -->
+        </section> <!-- Testimonials Section End-->
+    </main>
+    <!-- footer
    ================================================== -->
-   <footer>
+    <footer>
         <div class="row">
             <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
         </div>
@@ -300,17 +346,21 @@
             <li><a href="https://www.linkedin.com/in/emmanouil-stamatakis-a8728014a/"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCgC9q5L9sCMj3SpGYyQ67gg?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
         </ul>
-   </footer> <!-- Footer End-->
+    </footer> <!-- Footer End-->
 
-   <!-- Java Script
+    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+
+
+    <script src="js/plugin.js"></script>
+    <script src="js/init-round.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
