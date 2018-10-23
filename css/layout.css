@@ -65,7 +65,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #000;
+  color: rgba(51, 170, 51, .7);
   position: relative;
   display: inline-block;
   padding: 10px 25px;
