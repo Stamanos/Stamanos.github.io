@@ -1,6 +1,7 @@
 "use strict";
 
 $(window).on("load", function() {
+  console.log("I am watching you!");
   /*------------------
 		Preloder
 	--------------------*/
@@ -38,6 +39,7 @@ $(window).on("load", function() {
   var navMenu = $(".menu-list");
   navMenu.onePageNav();
   $(window).on("scroll resize", function(e) {
+    console.log("friend");
     if ($(this).scrollTop() > 70) {
       $(".header-section").addClass("sticky");
     } else {
