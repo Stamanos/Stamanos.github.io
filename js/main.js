@@ -1,4 +1,3 @@
-"use strict";
 
 $(window).on("load", function() {
   console.log("I am watching you!");
@@ -39,7 +38,6 @@ $(window).on("load", function() {
   var navMenu = $(".menu-list");
   navMenu.onePageNav();
   $(window).on("scroll resize", function(e) {
-    console.log("friend");
     if ($(this).scrollTop() > 70) {
       $(".header-section").addClass("sticky");
     } else {
@@ -50,11 +48,13 @@ $(window).on("load", function() {
 
   $(".responsive").on("click", function(event) {
     $(".menu-list").slideToggle(400);
+    console.log("I am always watching!!!");
     $(".header-section").toggleClass("bgc");
     event.preventDefault();
   });
 
   $(".menu-list li a").on("click", function(event) {
+    console.log("You better be careful...");
     if ($(window).width() < 768) {
       $(".menu-list").slideUp(400);
       $(".header-section").removeClass("bgc");
