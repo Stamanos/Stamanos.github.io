@@ -1,6 +1,7 @@
 
 $(window).on("load", function() {
   console.log("I am watching you!");
+  $(".menu-list").slideUp(400);
   /*------------------
 		Preloder
 	--------------------*/
