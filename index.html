@@ -1,512 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
+    <!--- Basic Page Needs
+   ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Free mobile app HTML landing page template to help you build a great online presence for your app which will convert visitors into users">
-    <meta name="author" content="Inovatik">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
-
-    <!-- Website Title -->
-    <title>Σίδερα Δημητρακόπουλος - τα καλύτερα σίδερα στο Γαλάτσι</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <title>Stamatakis CV</title>
+    <!-- Favicons
+	================================================== -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="">
+    <meta name="author" content="Emmanouil Stamatakis">
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+
+<body>
+    <div id="preloder">
+        <div class="loader"></div>
     </div>
-    <!-- end of preloader -->
-    
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
-
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
-        
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#features">FEATURES</a>
-                </li>
-            </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
+    <!-- Header
+   ================================================== -->
+    <!--====== Header Section Start ======-->
+    <header class="header-section">
+        <div class="logo">
+            <!-- <img src="images/frame.png" alt=""> Logo -->
         </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
-
-
-    <!-- Testimonials -->
-    <div class="slider-1">
-        <div class="container">
+        <div class="responsive"><i class="fa fa-bars" style="color: rgb(255, 255, 255)"></i></div>
+        <!-- Navigation -->
+        <ul class="menu-list">
+            <li class="current"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#call-to-action">Achivements</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!--====== Header Section End ======-->
+    <section class="intro-section fix" id="home">
+        <div class="intro-bg bg-cms"></div>
+        <div class="intro-inner">
+            <div class="intro-content">
+                <div id="round"></div>
+                <div class="profile-img">
+                    <img src="images/cv-image.jpg" alt="">
+                </div>
+                <h2><span class="element"></span></h2>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Intro Section End ==== -->
+    <!-- About Section
+   ================================================== -->
+    <main class="main-warp">
+        <section id="about" class="about-section fix">
+            <div class="stitle mb70">
+                <h2>About Me</h2>
+            </br>
+            </br>
+            </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="nine columns main-col">
+                    <h2 style="color: rgb(255, 255, 255)">
+                        <p style="color: rgb(255, 255, 255)">I'm 22 year old Undergraduate student of Computer Science.
+                        I aspire to initiate projects that have practical applications. Particularly if they involve time-saving.
+                        I am passionate about programming and I love learning.
+                        My goal is to make people's lives easier.</p>
+                    </h2>
+                    <div class="row">
+                        <div class="columns download">
+                            <p>
+                                <a href="/ManosStamatakisCV.pdf" download class="button"><i class="fa fa-download"></i>Download
+                                    Resume in PDF</a>
+                            </p>
+                        </div>
+                    </div> <!-- end row -->
+                </div> <!-- end .main-col -->
+            </div>
+        </section> <!-- About Section End-->
+        <!-- Resume Section
+   ================================================== -->
+        <section id="resume" class="resume-section fix">
+            <!-- Education
+      ===============================
+      =================== -->
+            <div class="stitle mb70">
+                <h2>Resume</h2>
+            </div>
+            <div class="row education">
+                <div class="three columns header-col">
+                    <h1><span>Education</span></h1>
+                </div>
+                <div class="nine columns main-col">
+                    <div class="row item">
+                        <div class="twelve columns">
+                            <a href="http://www.cs.unipi.gr"><img class="profile-pic" src="images/unipi_logo.png"
+                                    alt="" /></a>
+                            <p class="info">Software Engineering and Intelligent Systems<span>&bull;</span> <em
+                                    class="date">Now</em></p>
 
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Απλά τα καλύτερα σίδερα στο Γαλάτσι και σε όλη την Αττική</p>
-                                            <p class="testimonial-author">Γιάννης Σταματόπουλος - Επιχειρηματίας</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Ξέρω από σίδερα και τα Σίδερα Δημητρακόπουλος είναι τα καλύτερα στο Γαλάτσι</p>
-                                            <p class="testimonial-author">Μήτσαρας - Μπετατζής</p>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Δημητρακόπουλος λές και μόνο σίδερα καλής ποιότητας σου έρχονται στο νού!</p>
-                                            <p class="testimonial-author">Μαρίνα του Βοριά - Τσατσά</p>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">καλα μιλάμε τα πιο καλα σιδερα στο γαλατσι</p>
-                                            <p class="testimonial-author">Θέμης - Φορτηγατζής</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Τα καλυτερα σιδερα στην αττικη και στο γαλατσι</p>
-                                            <p class="testimonial-author">Jason Αντιγώνη</p>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Τα καλυτερα σίδερα στο Γαλάτσι λέμε και κλαίμε, Ο γιος του αφεντικού ο Αντώνης τρελό μανούλι</p>
-                                            <p class="testimonial-author">Λόλα Παρτόλα</p>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-                            
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
+                            <p>A true maths enthusiast, I enjoy computer science because it
+                                combines the language of numbers with the potential of creation.
+                                Programming makes unimaginable things possible, placing them within
+                                our grasp. I decided to specialise in software engineering and intelligent
+                                systems for that very reason.
+                            </p>
+                        </div>
+                    </div> <!-- item end -->
+                </div> <!-- main-col end -->
+            </div> <!-- End Education -->
+            <!-- Work- -->
+            <div class="row work">
+                <div class="three columns header-col">
+                    <h1><span>Working experience</span></h1>
+                </div>
+                <div class="nine columns main-col">
+                    <div class="row item">
+                        <div class="twelve columns">
+                        </div>
+                    </div> <!-- item end -->
+                    <div class="row item">
+                        <div class="twelve columns">
+                            <a href="https://acein.aueb.gr/groundifly"><img class="profile-pic" src="images/Groundifly_logo.png"
+                                    alt="" /></a>
+                            <p class="info">Android developer <span>&bull;</span> <em class="date">October 2017 -
+                                    January 2018</em></p>
+                            <p>
+                                Groundifly is my pride and joy, a project very dear to me. I joined Groundifly team as
+                                an android developer when I was still a university student. It is a startup which aims
+                                to unite every sector
+                                of extreme sport industry by marrying the use of geolocation data to innovating
+                                marketing techniques. If you are interested in finding out more, you can download the
+                                app
+                                (for free) <a href="https://play.google.com/store/apps/details?id=com.groundifly_android">here</a>
+                                , or see our promo video <a href="https://www.youtube.com/watch?v=7BXI4LgJWOI">here!</a>
+                            </p>
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
-    <!-- end of testimonials -->
-    
+                            <a href="https://www.siemens.com"><img class="profile-pic" src="images/siemens_logo.png"
+                                    alt="" /></a>
+                            <p class="info">Developer / TFS Data Analysis <span>&bull;</span> <em class="date">Nov 2017
+                                    - Feb 2018</em></p>
+                            <p>During this internship I gained valuable knowledge working on data analysis,
+                                collecting data from TFS Client and creating attractive graphs from them.
+                                I was introduced to big data and at the same time I expanded my skills in C#.
+                            </p>
 
-    <!-- Features -->
-    <div id="features" class="tabs">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Γεια σου ρε Αντώνη καυλα</h2>
-                    <div class="p-heading p-large">Εδω βάζεις ό,τι στον πούτσο φωτογραφίες θες</div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
+                            <a href="http://www.dataverse.gr"><img class="profile-pic" src="images/dv_logo.png" alt="" /></a>
+                            <p class="info">Developer / C# (MVC, Asp.NET) <span>&bull;</span> <em class="date">May 2018
+                                    - December 2018</em></p>
+                            <p>
+                                I was working there as Developer. I enjoyed very much the working enviroment and I was involved in 2 projects, <a href="http://www.dataverse.gr/index.php/products/docutracks/">Docutracks</a>
+                                (Document, Case and Digital Signatures Management System) and in a AR technology mobile
+                                application.
+                            </p>
+                        </div>
+                    </div> <!-- item end -->
+                </div> <!-- main-col end -->
+            </div> <!-- End Work -->
 
-                <!-- Tabs Links -->
-                <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>ΠΟΥΤΣΕΣ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-binoculars"></i>ΜΠΛΕ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-search"></i>ΚΑΡΑΜΕΛΕ</a>
-                    </li>
-                </ul>
-                <!-- end of tabs links -->
+            <!-- Skills
+      ================================================== -->
+            <div class="row skill">
+                <div class="three columns header-col">
+                    <h1><span>Skills</span></h1>
+                </div>
+                <div class="nine columns main-col">
+                    </p>
+                    <div class="bars">
 
+                        <ul class="skills">
+                            <li><span class="bar-expand c_sharp"></span><em>C#</em></li>
+                            <li><span class="bar-expand javascript"></span><em>JAVASCRIPT</em></li>
+                            <li><span class="bar-expand python"></span><em>PYTHON</em></li>
+                            <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                            <li><span class="bar-expand css"></span><em>CSS</em></li>
+                            <li><span class="bar-expand java"></span><em>JAVA</em></li>
+                        </ul>
+                    </div><!-- end skill-bars -->
+                </div> <!-- main-col end -->
+            </div>
+            </div><!-- End skills -->
+        </section> <!-- Resume Section End-->
+        <!-- Call-To-Action Section
+   ================================================== -->
 
-                <!-- Tabs Content-->
-                <div class="tab-content" id="lenoTabsContent">
-                    
-                    <!-- Tab -->
-                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                        <div class="container">
-                            <div class="row">
-                                
-                                <!-- Icon Cards Pane -->
-                                <div class="col-lg-4">
-                                    <div class="card left-pane first">
-                                        <div class="card-body">
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title">μπλα μπλα</h4>
-                                                <p>μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα πουτσες μπλε</p>
-                                            </div>
-                                            <div class="card-icon">
-                                                <i class="far fa-compass"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card left-pane">
-                                        <div class="card-body">
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title">Αντωνισμός</h4>
-                                                <p>μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα πουτσες μπλε</p>
-                                            </div>
-                                            <div class="card-icon">
-                                                <i class="far fa-file-code"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card left-pane">
-                                        <div class="card-body">
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title">Παπαδοπουλισμός</h4>
-                                                <p>μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα πουτσες μπλε</p>
-                                            </div>
-                                            <div class="card-icon">
-                                                <i class="far fa-gem"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end of icon cards pane -->
-
-                                <!-- Image Pane -->
-                                <div class="col-lg-4">
-                                    <img class="img-fluid" src="images/features-iphone-1.png" alt="alternative">
-                                </div>
-                                <!-- end of image pane -->
-                                
-                                <!-- Icon Cards Pane -->
-                                <div class="col-lg-4">
-                                    <div class="card right-pane first">
-                                        <div class="card-body">
-                                            <div class="card-icon">
-                                                <i class="far fa-calendar-check"></i>
-                                            </div>
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title">μπλα μπλα</h4>
-                                                <p>μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα μπλα πουτσες μπλε</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card right-pane">
-                                        <div class="card-body">
-                                            <div class="card-icon">
-                                                <i class="far fa-bookmark"></i>
-                                            </div>
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title">Πατα με</h4>
-                                                <p>άμα με πατήσεις αγαπητέ Αντώνη θα καταλάβεις οτι δεν δουλεύω ιχιχιχιχιχ</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card right-pane">
-                                        <div class="card-body">
-                                            <div class="card-icon">
-                                                <i class="fas fa-cube"></i>
-                                            </div>
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title">Σίδερα γαλάτσι</h4>
-                                                <p>Σιδεράδικο γαλάτσι, το καλύτερο σιδεράδικο στο Γαλάτσι</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end of icon cards pane -->
-
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div> <!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                    <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                        <div class="container">
-                            <div class="row">
-
-                                <!-- Image Pane -->
-                                <div class="col-md-4">
-                                    <img class="img-fluid" src="images/features-iphone-2.png" alt="alternative">
-                                </div>
-                                <!-- end of image pane -->
-                                
-                                <!-- Text And Icon Cards Area -->
-                                <div class="col-md-8">
-                                    <div class="text-area">
-                                        <h3>Track Result Based On Your</h3>
-                                        <p>After you've configured the app and settled on the data gathering techniques you can not start the information trackers and start collecting those <a class="turquoise" href="#your-link">interesting details</a>. You can always change them.</p>
-                                    </div> <!-- end of text-area -->
-                                    
-                                    <div class="icon-cards-area">
-                                            <div class="card">
-                                                <div class="card-icon">
-                                                    <i class="fas fa-cube"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Good Foundation</h4>
-                                                    <p>Get a solid foundation for your self development efforts. Try Leno mobile app for any mobile platform</p>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <div class="card-icon">
-                                                    <i class="far fa-bookmark"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Easy Reading</h4>
-                                                    <p>Reading focus mode for long form articles, ebooks and other materials which involve large text areas</p>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <div class="card-icon">
-                                                    <i class="far fa-calendar-check"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Calendar Input</h4>
-                                                    <p>Schedule your appointments, meetings and periodical evaluations using the provided in-app calendar option</p>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <div class="card-icon">
-                                                    <i class="far fa-file-code"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Visual Editor</h4>
-                                                    <p>Leno provides a well designed and ergonomic visual editor for you to edit your notes and input data</p>
-                                                </div>
-                                            </div>
-                                    </div> <!-- end of icon cards area -->
-                                </div> <!-- end of col-md-8 -->
-                                <!-- end of text and icon cards area -->
-
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div> <!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                    <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                        <div class="container">
-                            <div class="row">
-
-                                <!-- Text And Icon Cards Area -->
-                                <div class="col-md-8">
-                                    <div class="icon-cards-area">
-                                        <div class="card">
-                                            <div class="card-icon">
-                                                <i class="far fa-calendar-check"></i>
-                                            </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Calendar Input</h4>
-                                                <p>Schedule your appointments, meetings and periodical evaluations using the provided in-app calendar option</p>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-icon">
-                                                <i class="far fa-file-code"></i>
-                                            </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Visual Editor</h4>
-                                                <p>Leno provides a well designed and ergonomic visual editor for you to edit your notes and input data</p>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-icon">
-                                                <i class="fas fa-cube"></i>
-                                            </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Good Foundation</h4>
-                                                <p>Get a solid foundation for your self development efforts. Try Leno mobile app for any mobile platform</p>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-icon">
-                                                <i class="far fa-bookmark"></i>
-                                            </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Easy Reading</h4>
-                                                <p>Reading focus mode for long form articles, ebooks and other materials which involve large text areas</p>
-                                            </div>
-                                        </div>
-                                    </div> <!-- end of icon cards area -->
-                                    
-                                    <div class="text-area">
-                                        <h3>Monitoring Tools Evaluation</h3>
-                                        <p>Monitor the evolution of your finances and health state using tools integrated in Leno. The generated real time reports can be filtered based on any <a class="turquoise" href="#your-link">desired criteria</a>.</p>
-                                    </div> <!-- end of text-area -->
-                                </div> <!-- end of col-md-8 -->
-                                <!-- end of text and icon cards area -->
-
-                                <!-- Image Pane -->
-                                <div class="col-md-4">
-                                    <img class="img-fluid" src="images/features-iphone-3.png" alt="alternative">
-                                </div>
-                                <!-- end of image pane -->
-                                    
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div><!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                </div> <!-- end of tab-content -->
-                <!-- end of tabs content -->
-
-            </div> <!-- end of row --> 
-        </div> <!-- end of container --> 
-    </div> <!-- end of tabs -->
-    <!-- end of features -->
-    
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-col">
-                        <h4>Σιδερα Γαλατσι</h4>
-                        <p>Τα καλύτερα σίδερα στο Γαλάτσι</p>
+        <!-- Achivments Section
+   ================================================== -->
+        <section id="call-to-action" class="call-to-action-section fix">
+            <div class="container pt100 pb100">
+                <div class="stitle mb70">
+                    <h2>Achivements</h2>
+                </div>
+                <div class="row">
+                    <div class="two columns header-col">
+                        <h1></h1>
                     </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col last">
-                        <h4>Social Media</h4>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-google-plus-g fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+                    <div class="seven columns">
+                        <h2><span class="lead">As a Student</span></h2>
+                        <p><span class="lead">
+                                • 3rd place at Mathematical Olympiad “Archimedes”<br>
+                                • 2nd place at National Microsoft Excel contest<br>
+                                • Awarded as Microsoft Specialist when I was 15 years old.<br>
+                            </span></p>
+                    </div>
+                    <div class="three columns action">
+                        <h5>Location, Year</h5>
+                        Greece, 2015<br>
+                        Greece, 2014<br>
+                        Greece, 2012<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="two columns header-col">
+                        <h1></h1>
+                    </div>
+                    <div class="seven columns">
+                        <h2><span class="lead">As an Entepreneur</span></h2>
+                        <p><span class="lead">
+                                • Ennovation Contest - 3rd phase<br>
+                                • Entrepreneurship Bootcamp Contest - achieved incubation<br>
+                                • Google Startup Launchpad Warsaw, Poland (Top 10 in Europe)<br>
+                            </span></p>
+                    </div>
+                    <div class="three columns action">
+                        <h5>Dates</h5>
+                        SEP 2017<br>
+                        JUL 2017<br>
+                        OCT 2017<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="two columns header-col">
+                        <h1></h1>
+                    </div>
+                    <div class="seven columns">
+                        <h2><span class="lead">As an Athlete</span></h2>
+                        <p><span class="lead">
+                                • 22nd place at sailing, in the International Youth Championship<br>
+                                • 3rd place at Discus throw in the Youth(U20) National Championship<br>
+                                • 3rd place at Discus throw in the U23 National Championship<br>
+                                • 3rd place at Discus throw in the National Winter Throwing Championship<br>
+                                • 3rd place at Discus throw in the National Throwing Festival<br>
+                                • 3rd place at Discus throw in the National Winter Throwing Championship<br>
+                            </span></p>
+                    </div>
+                    <div class="three columns action">
+                        <h5>Location, Year</h5>
+                        Finland, 2012<br>
+                        <br>
+                        Serres, Greece 2016 <br>
+                        Larisa, Greece 2017<br>
+                        <br>
+                        Thessaloniki, Greece 2018<br>
+                        Tripoli, Greece 2018<br>
+                        <br>
+                        Thessaloniki, Greece 2019<br>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Call-To-Action Section End-->
 
-    
-    	
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        <!-- Testimonials Section
+   ================================================== -->
+        <section id="testimonials" class="testimonials fix">
+            <div class="container pt100 pb100">
+                <div class="stitle mb70">
+                    <h2>Testimonials</h2>
+                </div>
+                <div class="text-container">
+                    <div class="row">
+                        <div class="two columns header-col">
+                        </div>
+                        <div class="ten columns flex-container">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <blockquote>
+                                            <p>
+                                                Amazing and really innovative ideas, extremely clean code, very good at
+                                                brainstorming.
+                                                He doesn't stop working until his work is done
+                                                and is extremely organizational.
+                                            </p>
+                                            <cite>Gus Kala, Ceo of Entitu</cite>
+                                        </blockquote>
+                                    </li> <!-- slide ends -->
+                                    <li>
+                                        <blockquote>
+                                            <p>
+                                                Has strong will to succeed in his life and wants to learn new things
+                                                continuously.
+                                                He always acts very disciplined, because of the long-standing
+                                                athleticism
+                                                from the age of 7.
+                                            </p>
+                                            <cite>Alice Moysiadi, Tutor at University of Southampton</cite>
+                                        </blockquote>
+                                    </li> <!-- slide ends -->
+                                </ul>
+                            </div> <!-- div.flexslider ends -->
+                        </div> <!-- div.flex-container ends -->
+                    </div>
+                </div> <!-- row ends -->
+            </div> <!-- text-container ends -->
+        </section> <!-- Testimonials Section End-->
+    </main>
+    <!-- footer
+   ================================================== -->
+   <a id="contact"></a>
+    <footer>
+            <h2>Contact Details</h2>
+            <p class="address">
+                <span>Manos Stamatakis</span><br>
+                <span>+30 697 666 7762</span><br>
+                <span>EmmanouelStamatakes@gmail.com</span>
+            </p>
+        <div class="row">
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fa fa-arrow-up"></i></a></div>
+        </div>
+        <ul class="social-links">
+            <li><a href="https://github.com/ManosTheMaster"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/manos_stamatakis_dt/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/emmanouil-stamatakis-a8728014a/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCgC9q5L9sCMj3SpGYyQ67gg?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+    </footer> <!-- Footer End-->
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+
+
+    <script src="js/plugin.js"></script>
+    <script src="js/init-round.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
