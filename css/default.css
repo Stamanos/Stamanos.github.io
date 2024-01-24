@@ -121,6 +121,8 @@ section {
 audio,
 canvas,
 video {
+  height: fit-content;
+  width: fit-content;
   display: inline-block;
 }
 
@@ -862,7 +864,7 @@ input[type="checkbox"] {
   width: 66.66667%;
 }
 .row .nine {
-  width: 75%;
+  width: 100%;
 }
 .row .ten {
   width: 83.33333%;
@@ -1171,7 +1173,7 @@ input[type="checkbox"] {
   Intro Section
 =======================*/
 .intro-section {
-  height: 100%;
+  height: 50%;
   position: relative;
   overflow: hidden;
   z-index: 6;

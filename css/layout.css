@@ -307,9 +307,13 @@ ul#nav li.current a {
 
 #about {
   background: rgb(0, 0, 0);
-  padding-top: 96px;
-  padding-bottom: 66px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   overflow: hidden;
+  width: 100%;
+  padding: 0; /* Set padding to 0 to ensure full width */
+  margin: 0; /* Set margin to 0 to ensure full width */
+  text-align: center;
 }
 
 #about a,
@@ -329,6 +333,7 @@ ul#nav li.current a {
 #about p {
   line-height: 30px;
   color: #7a7a7a;
+  text-align: center;
 }
 #about .profile-pic {
   position: relative;
@@ -340,7 +345,7 @@ ul#nav li.current a {
   width: 41.66667%;
 }
 #about .download {
-  width: 58.33333%;
+  width: 100%;
   padding-top: 6px;
 }
 #about .main-col {
