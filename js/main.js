@@ -1,6 +1,6 @@
 
 $(window).on("load", function() {
-  console.log(" watching you!");
+  console.log("Ράνια, είσαι ο έρωτας της ζωής μου!!!");
   $(".menu-list").slideUp(400);
   /*------------------
 		Preloder
